@@ -20,6 +20,11 @@
           </a>
         </li>
         <li>
+          <a href="#form">
+            <i class="fa fa-mobile" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
           <a href="#footer">
             <i class="fa fa-pie-chart" aria-hidden="true"></i>
           </a>
@@ -29,11 +34,12 @@
     <div class="container">
       <div class="card text-center" id="info">
         <img src="images/pizza.jpg" alt="Sandra Woźnicka" id="img-profile" class="img-circle">
-        <h1>Sandra Woźnicka</h1>
+        <h1>Sandra Woźnickaaa</h1>
         <h2>Pizza lover</h2>
         <p>
-        Pizza is a yeasted flatbread typically topped with tomato sauce and cheese and baked in an oven. It is commonly topped with a selection of meats, vegetables and condiments. The term pizza was first recorded in the 10th century, in a Latin manuscript from Gaeta in Central Italy. Modern pizza was invented in Naples, Italy, and the dish and its variants have since become popular and common in many areas of the world.
+        <strong>Pizza</strong> is a yeasted flatbread typically topped with tomato sauce and cheese and baked in an oven. It is commonly topped with a selection of meats, vegetables and condiments. The term pizza was first recorded in the 10th century, in a Latin manuscript from Gaeta in Central Italy. Modern <strong>pizza</strong> was invented in Naples, Italy, and the dish and its variants have since become popular and common in many areas of the world.
         </p>
+        <a href="https://en.wikipedia.org/wiki/History_of_pizza" class="btn-red">See for yourself</a>
       </div>
       <div class="card text-center">
         <ul class="list-inline">
@@ -94,7 +100,25 @@
       </tbody>
     </table>
     </div>
-      <div class="card text-center" id="footer">
+    <div class="card text-center" id="form">
+      <h2>Order a <strong>pizza</strong>!</h2>
+      <form action="/action_page.php" method="get">
+      Name: <input type="text" name="name"><br>
+      Address: <input type="text" name="address"><br>
+      Pizza: <select name="pizzas">
+        <option value="pepperoni">Pepperoni</option>
+        <option value="margherita">Margherita</option>
+        <option value="vegeterian">Vegeterian</option>
+      </select><br>
+      Restaurant: <select name="pizzas">
+        <option value="dominos">Domino's</option>
+        <option value="hut">Pizza Hut</option>
+        <option value="papa">Papa John's</option>
+      </select><br>
+      <input type="submit" value="Submit">
+      </form>
+    </div>
+    <div class="card text-center" id="footer">
         <h2>About this page</h2>
         This page has been coded during the <a href="https://www.lewagon.com/" target="_blank">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.
         <ul class="list-inline">
